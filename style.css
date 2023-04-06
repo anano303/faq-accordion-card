@@ -1,0 +1,116 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-style: normal;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #B068E9 0%, #6463E7 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main {
+    width: 327px;
+    min-height: 535px;
+    background: #FFFFFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.497159);
+    border-radius: 23px;
+    
+}
+.container {
+    margin: 40px 24px 48px 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    position: relative;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    color: #1E1F36;
+    margin-top: 132px;
+    text-align: center;
+
+}
+.img-mobile {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    position: static;
+    transform: translateY(40%);
+    
+}
+
+.secondimg {
+    position: absolute;
+    top:100px
+    
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #E8E8EA;
+    position: relative;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #4B4C5F;
+    margin-bottom: 18px;
+    
+    
+}
+
+p {
+    font-family: 'Kumbh Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #787887;
+    margin-top: 13px;
+    display: none;
+    position: relative;
+    
+}
+.question {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+.active .answer p {
+    transition: all 0.3s ease-in;
+    display: block;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 18px;
+    color: #787887;
+}
+
+.logo {
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in;
+}
+
+.active img {
+    transform: rotate(180deg);
+    transition: all 0.2s ease-in;
+    
+}
+.active h3 {
+    font-weight: 700;
+    color: #1E1F36;
+
+}
+
+
+
